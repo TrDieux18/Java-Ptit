@@ -53,7 +53,7 @@ public class J07008_DayConTangDan {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        // Đọc dữ liệu từ file "DAYSO.in"
+
         Scanner sc = new Scanner(new File("DAYSO.in"));
         n = sc.nextInt();
         a = new int[n];
@@ -65,7 +65,6 @@ public class J07008_DayConTangDan {
         res = new ArrayList<>();
         Try(0);
 
-        // Sắp xếp kết quả theo thứ tự từ điển và in ra
         Collections.sort(res);
         for (String i : res) {
             System.out.println(i);
